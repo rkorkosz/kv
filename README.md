@@ -19,23 +19,32 @@ go get -u github.com/rkorkosz/kv
 
 1. To parse existing env file to kv database:
 
-    $ kv parse <filename>
+```
+$ kv parse <filename>
+```
 
 2. To list all stored variables:
 
-    $ kv ls
+```
+$ kv ls
+```
 
 3. To export all variables in shell:
 
-    $ export $(kv ls)
+```
+$ export $(kv ls)
+```
 
 4. To store one variable:
 
-    $ kv set KEY=VAL
+```
+$ kv set KEY=VAL
+```
 
 or
-
-    $ kv set KEY VAL
+```
+$ kv set KEY VAL
+```
 
 ## Implementation
 
