@@ -5,6 +5,16 @@ Since env variables values shouldn't be kept in repo the need for other storage 
 You can store env vars in seperate file that is listed in .gitignore, but experience teaches us,
 that this approach can fail and sensitive data can end up in the repo.
 
+## Installation
+
+Linux users that uses amd64 architecture can download latest version from [releases page](https://github.com/rkorkosz/kv/releases)
+
+If you have go installed you can always `go get` it
+
+```
+go get -u github.com/rkorkosz/kv
+```
+
 ## Usage
 
 1. To parse existing env file to kv database:
