@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/rkorkosz/kv.svg?branch=master)](https://travis-ci.org/rkorkosz/kv)
+
 # Persistent env key value store for multiple projects
 
 I created this package to handle environment variables for many projects that I worked at.
