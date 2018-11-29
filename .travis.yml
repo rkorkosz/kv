@@ -1,0 +1,9 @@
+language: go
+go_import_path: github.com/rkorkosz/kv
+
+sudo: false
+
+go:
+  - 1.11
+
+script: go test -v ./...
